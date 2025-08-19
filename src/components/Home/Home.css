@@ -24,6 +24,7 @@
   transition: all 0.4s ease-in-out; /* smooth hover */
   
   
+  
 }
 @keyframes rotateIn {
    0% {
@@ -32,7 +33,7 @@
   }
   100% {
     transform: rotate(0deg) scale(1);
-    opacity: 1;
+    opacity: 1; 
   }
 }
 
@@ -40,4 +41,5 @@
 .righthome img {
   animation: rotateIn 1.2s ease forwards;
 }
+
 
