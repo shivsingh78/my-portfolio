@@ -12,6 +12,37 @@ function About() {
           <div className="circle"></div>
           
         </div>
+        <div className="aboutdetails">
+          <div className="personalinfo">
+            <h1>Personal Info </h1>
+            <ul>
+              <li> <span>Name</span> : SHIV SINGH BAGHEL</li>
+              <li><span>AGE</span>: 20 YEARS</li>
+              <li><span>GENDER</span>: MALE</li>
+              <li><span>LANGUAGE KNOWN</span>: HINDI , ENGLISH</li>
+            </ul>
+          </div>
+          <div className="education">
+            <h1>Education </h1>
+            <ul>
+              <li> <span>DEGREE</span> : B-TECH</li>
+              <li><span>BRANCH</span>: INFORMATION TECHNOLOGY</li>
+              <li><span>UNIVERSITY NAME </span>: RGPV University, Bhopal</li>
+              <li><span>DURATION</span>: 2023 - 2027 </li>
+            </ul>
+          </div>
+          <div className="skills">
+            <h1>Skills </h1>
+            <ul>
+              <li>MERN STACK WEB DEVELOPER</li>
+              <li>PYTHON DEVeLOPER</li>
+              <li>DSA , SYSTEM DESIGN</li>
+              
+            </ul>
+          </div>
+
+
+        </div>
       </div>
       <div className="rightabout"></div>
     </div>

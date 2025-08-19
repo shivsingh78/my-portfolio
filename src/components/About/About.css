@@ -4,15 +4,52 @@
      display: flex;
 }
 .leftabout{
-     width:50px;
+     width:50%;
      height: 100vh;
      display: flex;
      align-items: center;
      justify-content: center;
+     gap: 40px;
 }
+
 .circle{
-     width: 50px;
-     height: 50px;
+     width: 60px;
+     height: 60px;
      border-radius: 50px;
+     background-color: #7ad7ea;
+     box-shadow: 2px 2px 20px #7ad7ea;
+}
+.line{
+     width: 2px;
+     height: 120px;
+     
      background-color: aliceblue;
 }
+.circle-line{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     
+     
+}
+.aboutdetails{
+     display: flex;
+     gap: 40px;
+     flex-direction: column;
+}
+.aboutdetails ul{
+     list-style:none;
+}
+.aboutdetails h1{
+     background: linear-gradient(to right , rgb(145, 40, 77),whitesmoke);
+  background-clip: text;
+  color: transparent;
+}
+.aboutdetails li{
+     color: whitesmoke;
+}
+.aboutdetails span{
+     color: #7ad7ea;
+}
+
