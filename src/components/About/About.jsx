@@ -39,7 +39,7 @@ function About() {
             <h1>Skills </h1>
             <ul>
               <li>MERN STACK WEB DEVELOPER</li>
-              <li>PYTHON DEVeLOPER</li>
+              <li>PYTHON DEVELOPER</li>
               <li>DSA , SYSTEM DESIGN</li>
               
             </ul>
