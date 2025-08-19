@@ -1,6 +1,43 @@
 #home{
      width: 100%;
      height: 100%;
-     min-height: 100vh;
+    display: flex;
     
 }
+.lefthome{
+     width: 50%;
+     height: 100vh;
+}
+.righthome{
+     width: 50%;
+     height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.righthome img{
+     width: 50%;
+     object-fit: cover;
+  border-radius: 50%;   /* circle */
+  filter: brightness(1) contrast(1.3); /* make it pop */
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.3);
+  transition: all 0.4s ease-in-out; /* smooth hover */
+  
+  
+}
+@keyframes rotateIn {
+   0% {
+    transform: rotate(-180deg) scale(0.7);
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(0deg) scale(1);
+    opacity: 1;
+  }
+}
+
+
+.righthome img {
+  animation: rotateIn 1.2s ease forwards;
+}
+
