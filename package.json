@@ -12,7 +12,10 @@
   "dependencies": {
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
-    "react-scroll": "^1.9.3"
+    "react-scroll": "^1.9.3",
+    "react-simple-typewriter": "^5.0.1",
+    "react-typing-effect": "^2.0.5",
+    "typewritter": "^1.0.9"
   },
   "devDependencies": {
     "@eslint/js": "^9.33.0",

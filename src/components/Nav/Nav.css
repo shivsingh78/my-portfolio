@@ -7,6 +7,9 @@ nav{
      padding: 20px;
      position: fixed;
      top: 0;
+     z-index: 20;
+          background-color: rgb(19, 22, 22);
+
     
 }
 nav ul a{
