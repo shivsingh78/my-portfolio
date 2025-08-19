@@ -14,6 +14,7 @@
      transition: all 0.2s;
      cursor: pointer;
      flex-shrink: 0;
+     padding: 10px;
      
 }
 .card:hover{
@@ -47,4 +48,5 @@
        background: linear-gradient(to right , rgb(60, 185, 216),whitesmoke);
   background-clip: text;
   color: transparent;
+  font-size: 20px;
 }
